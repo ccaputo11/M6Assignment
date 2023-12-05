@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{box-sizing: border-box;}
+
+body{
+	background-color: cadetblue;
+}
+.container{width: 1200px;
+	margin: 0 auto;
+}
+
+.flex-container{
+	display: flex;flex-grow: 2;
+}
+
+.infocolumn{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.bottomContents
+{display: flex;
+flex-direction: column;
+background-color: floralwhite}
+
+.bottomContents h1{
+	text-align: center;
+	color: crimson;
+}
+
+.showlinks{
+	display: flex;
+	flex-direction: row;
+	margin: 0 60px 0 60px;
+	width: 100%;
+	}
+
+.contentLinks{
+	margin: 0 30px 0 30px;
+}
